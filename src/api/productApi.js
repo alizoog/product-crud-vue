@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_URL = 'http://localhost:8080/api/products'
+const BASE_URL = 'https://crud-backend.local/api/products'
 
  const productApi = {
     async getAll(page = 1, size = 10, search = '') {
