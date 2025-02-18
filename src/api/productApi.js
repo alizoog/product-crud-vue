@@ -10,12 +10,6 @@ const BASE_URL = 'http://localhost:8080/api/products'
         return response.data
     },
 
-     // async getAll() {
-     //    return  await axios.get(`${BASE_URL}/users`)
-     // },
-
-
-
     async getById(id) {
         const response = await axios.get(`${BASE_URL}/${id}`)
         return response.data
