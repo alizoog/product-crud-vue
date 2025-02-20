@@ -6,10 +6,10 @@ This is the frontend for the Product CRUD application. It is built using Vue.js 
 
 ## Installation
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/alizoog/product-crud-vue.git
-   cd product-crud-vue
-   ```
+```sh
+git clone https://github.com/alizoog/product-crud-vue.git
+cd product-crud-vue
+```
 
 ```sh
 npm install
